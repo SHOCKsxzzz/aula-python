@@ -1,0 +1,12 @@
+fila = ["Ana", "Bruno"]
+print(fila)
+fila.append("Carla")
+print(fila)
+fila.insert(0, "Diego")
+print(fila)
+fila.remove("Bruno")
+print(fila)
+atendido = fila.pop(0)
+print(fila)
+fila.extend(["eva", "fabio"])
+print(fila)
